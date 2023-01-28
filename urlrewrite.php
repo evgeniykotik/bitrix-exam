@@ -96,12 +96,12 @@ $arUrlRewrite=array (
     'PATH' => '/testsite/photo/index.php',
     'SORT' => 100,
   ),
-  20 => 
+  26 => 
   array (
-    'CONDITION' => '#^/testsite/about/#',
+    'CONDITION' => '#^/testsite/store/#',
     'RULE' => '',
-    'ID' => '',
-    'PATH' => '/testsite/about.php',
+    'ID' => 'bitrix:catalog.store',
+    'PATH' => '/testsite/store/index.php',
     'SORT' => 100,
   ),
   18 => 
@@ -120,12 +120,12 @@ $arUrlRewrite=array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
-  26 => 
+  20 => 
   array (
-    'CONDITION' => '#^/testsite/store/#',
+    'CONDITION' => '#^/testsite/about/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog.store',
-    'PATH' => '/testsite/store/index.php',
+    'ID' => '',
+    'PATH' => '/testsite/about.php',
     'SORT' => 100,
   ),
   22 => 
@@ -168,7 +168,7 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/rest/index.php',
     'SORT' => 100,
   ),
-  15 => 
+  27 => 
   array (
     'CONDITION' => '#^/blog/#',
     'RULE' => '',
